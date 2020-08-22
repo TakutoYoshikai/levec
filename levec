@@ -16,5 +16,6 @@ for _cmd in list:
     min_distance = distance
     nearest = _cmd
 
-print(nearest)
+if min_distance < 3:
+    print(nearest)
 
